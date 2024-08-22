@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen bg-gray-50">
-      <div className="w-[30%] border-r border-gray-200 overflow-hidden">
+      <div className="w-[28%] border-r border-gray-200 overflow-hidden">
         <ChatBot 
           onCodeGenerated={handleCodeGenerated}
           chatHistory={chatHistory}
